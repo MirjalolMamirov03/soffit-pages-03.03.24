@@ -260,6 +260,60 @@
     /* //Portfolio */
 
 
+    /* Ux-Designed */
+
+    .site-header {
+        padding-bottom: 0 !important;
+    }
+
+    .ux-flex {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        justify-content: center;
+        align-items: center;
+        border-top: 0 !important;
+    }
+
+    .ux-form {
+       order: 10;
+       flex-direction: uns;
+    }
+
+    .form-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textarea, .footer-form-btn {
+        transform: scale(0);
+        position: absolute;
+    }
+
+    .input-desc, .select, .select-item {
+        max-width: 343px !important;
+        /* width: 100% !important; */
+    }
+    .form-item:nth-child(2) .input-desc {
+        max-width: 343px !important;
+        width: 100% !important;
+    }
+
+    .form-child:nth-child(3) .form-item:nth-child(1) .input-desc {
+        width: 343px !important; 
+    }
+
+    .form-item {
+        width: 100%;
+    }
+
+    /* //Ux-Designed */
+
+
 
 
     /* Footer */
